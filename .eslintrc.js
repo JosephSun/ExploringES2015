@@ -30,8 +30,14 @@ module.exports = {
         "no-throw-literal": "error",
         "no-unmodified-loop-condition": "error",
         "vars-on-top": "warn",
-
-        "semi": 2
+        "spaced-comment": [2, "always"],
+        "space-infix-ops": [2, {"int32Hint": false}],
+        "sort-imports": [2, {
+            "ignoreCase": false,
+            "ignoreMemberSort": false,
+            "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+        }],
+        "comma-spacing": [2, {"before": false, "after": true}]
     }
 
 
