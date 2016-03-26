@@ -10,7 +10,6 @@ module.exports = {
         "comma-dangle": "error",
         "no-cond-assign": "error",
         "no-dupe-args": "error",
-        "no-dupe-case": "error",
         "no-empty": "warn",
         "no-ex-assign": "error",
         "no-extra-boolean-cast": "warn",
