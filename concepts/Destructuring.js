@@ -1,5 +1,8 @@
 //ES2015
-const obj = {first: 'jane', last: 'Doe'};
+let obj = {
+  first: 'jane',
+  last: 'Doe'};
+
 let {first: f, last: l} = obj;
 // f = 'jane'; l = 'Doe'
 
@@ -8,8 +11,8 @@ var obj2 = {
   first: 'jane',
    last: 'Doe'
  };
-let f = obj2.first;
-let l = obj.last;
+ f = obj2.first;
+ l = obj.last;
 
 // ES2015
 //{prop} is short for {prop: prop}
