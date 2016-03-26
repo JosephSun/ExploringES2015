@@ -19,6 +19,14 @@ module.exports = {
         "no-sparse-arrays": "error",
         "no-unreachable": "error",
         "valid-typeof": "error",
+        "curly": "warn",
+        "eqeqeq": "error",
+        "guard-for-in": "error",
+        "no-else-return": "error",
+        "no-empty-pattern": "error",
+        "no-implicit-coercion": "error",
+        "no-param-reassign": "error",
+        "no-redeclare": "error",
 
         "semi": 2
     }
