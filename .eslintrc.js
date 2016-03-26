@@ -11,9 +11,10 @@ module.exports = {
         "no-cond-assign": "error",
         "no-dupe-args": "error",
         "no-dupe-case": "error",
-        "no-empty": "error",
+        "no-empty": "warn",
         "no-ex-assign": "error",
-        "no-extra-boolean-cast": "error",
+        "no-extra-boolean-cast": "warn",
+        "no-extra-parens": "warn",
         "semi": 2
     }
 
