@@ -14,6 +14,12 @@ module.exports = {
         "no-ex-assign": "error",
         "no-extra-boolean-cast": "warn",
         "no-extra-parens": "warn",
+        "no-extra-semi": "error",
+        "no-irregular-whitespace": "warn",
+        "no-sparse-arrays": "error",
+        "no-unreachable": "error",
+        "valid-typeof": "error",
+
         "semi": 2
     }
 
