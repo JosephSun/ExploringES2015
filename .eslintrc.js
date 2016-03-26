@@ -7,6 +7,10 @@ module.exports = {
         }
     },
     "rules": {
+        "comma-dangle": "error",
+        "no-cond-assign": "error",
         "semi": 2
     }
+
+
 }
