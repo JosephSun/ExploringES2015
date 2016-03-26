@@ -1,11 +1,21 @@
 //ES2015
 const obj = {first: 'jane', last: 'Doe'};
-const {first: f, last: l} = obj;
+let {first: f, last: l} = obj;
 // f = 'jane'; l = 'Doe'
 
+// ES5 examples
+const obj2 = {first: 'jane', last: 'Doe'};
+let f = obj2.first;
+let l = obj.last;
+
+// ES2015
 //{prop} is short for {prop: prop}
-const {first, last} = obj;
+let {first, last} = obj;
   //first = 'Jane', last = 'Doe'
+
+//ES5
+let f = obj2.first;
+let l = obj.last;
 
 
 
