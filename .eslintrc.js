@@ -27,6 +27,9 @@ module.exports = {
         "no-implicit-coercion": "error",
         "no-param-reassign": "error",
         "no-redeclare": "error",
+        "no-throw-literal": "error",
+        "no-unmodified-loop-condition": "error",
+        "vars-on-top": "warn",
 
         "semi": 2
     }
