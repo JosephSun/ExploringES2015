@@ -13,9 +13,9 @@ let l = obj.last;
 let {first, last} = obj;
   //first = 'Jane', last = 'Doe'
 
-//ES5
-let f = obj2.first;
-let l = obj.last;
+// ES5
+const f2 = obj2.first;
+const l2 = obj.last;
 
 
 
