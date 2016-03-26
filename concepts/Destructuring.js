@@ -1,7 +1,11 @@
 //ES2015
 const obj = {first: 'jane', last: 'Doe'};
 const {first: f, last: l} = obj;
+// f = 'jane'; l = 'Doe'
 
+//{prop} is short for {prop: prop}
+const {first, last} = obj;
+  //first = 'Jane', last = 'Doe'
 
 
 
