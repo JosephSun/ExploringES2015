@@ -4,7 +4,7 @@ let {first: f, last: l} = obj;
 // f = 'jane'; l = 'Doe'
 
 // ES5 examples
-const obj2 = {
+var obj2 = {
   first: 'jane',
    last: 'Doe'
  };
