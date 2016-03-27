@@ -1,4 +1,4 @@
-//ES2015
+// ES2015
 let obj = {
   first: 'jane',
   last: 'Doe'};
@@ -7,7 +7,7 @@ let {first: f, last: l} = obj;
 // f = 'jane'; l = 'Doe'
 
 // ES5 examples
-var obj2 = {
+let obj2 = {
   first: 'jane',
    last: 'Doe'
  };
@@ -15,9 +15,9 @@ var obj2 = {
  l = obj.last;
 
 // ES2015
-//{prop} is short for {prop: prop}
+// {prop} is short for {prop: prop}
 let {first, last} = obj;
-  //first = 'Jane', last = 'Doe'
+  // first = 'Jane', last = 'Doe'
 
 // ES5
 const f2 = obj2.first;
@@ -32,8 +32,8 @@ function initializeES2015({controls = {}, models = {}, reducers = {}, actors = [
 }
 
 function initializeES5 (options) {
-  var controls = options.controls || {};
-  var models = options.models || {};
-  var reducers = options.reducers || {};
-  var actors = options.actors || {};
+  let controls = options.controls || {};
+  let models = options.models || {};
+  let reducers = options.reducers || {};
+  let actors = options.actors || {};
 }
