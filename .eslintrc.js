@@ -28,6 +28,7 @@ module.exports = {
         "no-param-reassign": "error",
         "no-redeclare": "error",
         "no-throw-literal": "error",
+        "no-trailing-spaces": [2, {"skipBlankLines": true}],
         "no-unmodified-loop-condition": "error",
         "vars-on-top": "warn",
         "spaced-comment": [2, "always"],
