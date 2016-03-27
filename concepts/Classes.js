@@ -10,7 +10,7 @@ Person.prototype.describe = function () {
 
 
 // ES2015
-class PersonES6 {
+class PersonES2015 {
   constructor(name) {
     this.name = name;
   }
@@ -39,5 +39,15 @@ Employee.prototype.constructor = Employee;
 Employee.prototype.describe = function (){
   // super.describe()
   return `${Person.prototype.describe.call(this)} (${this.title})`;
+}
 
+// ES2015
+class EmployeeES2015 extends PersonES2015 {
+  constructor(name, title) {
+    super(name);
+    this.title = title;
+  }
+  describe() {
+    return `${super.describe()} (${this.title})`;
+  }
 }
