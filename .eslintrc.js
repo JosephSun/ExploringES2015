@@ -49,7 +49,6 @@ module.exports = {
         "no-class-assign": "error",
         "no-this-before-super": "error",
         "no-dupe-class-members": "error",
-        "no-dupe-imports": "error",
         "no-var": "warn",
         "object-shorthand": "warn",
         "prefer-arrow-callback": "warn",
