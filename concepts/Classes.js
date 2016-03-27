@@ -75,3 +75,4 @@ square = require('lib').square;
 diag = require('lib').diag
 
 // ES2015 Import
+import {square, diag} from 'lib';
