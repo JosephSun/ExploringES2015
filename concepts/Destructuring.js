@@ -46,3 +46,16 @@ function initializeES5 (options) {
   let reducers = options.reducers || {};
   let actors = options.actors || {};
 }
+
+
+/*
+Destructuring in ECMAScript 6 enables the same syntax for extracting data, where it is called an object pattern:
+
+const { first: f, last: l } = obj;
+Just as the object literal lets us create multiple properties at the same time, the object pattern lets us extract multiple properties at the same time.
+
+You can also destructure Arrays via patterns:
+
+const [x, y] = ['a', 'b']; // x = 'a'; y = 'b'
+
+*/
