@@ -1,3 +1,6 @@
+// Ignore the types of variable declarations under sectiosn of ES5. My linter is making me do frustrating workarounds.
+
+
 // ES2015
 let obj = {
   first: 'jane',
@@ -24,6 +27,12 @@ const f2 = obj2.first;
 const l2 = obj.last;
 
 
+// ES 2015
+const iterable = ['a', 'b'];
+let [x, y] = iterable;
+// ES5
+x = iterable[0];
+y = iterable[1];
 
 
 
