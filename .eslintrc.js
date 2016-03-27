@@ -27,18 +27,31 @@ module.exports = {
         "no-implicit-coercion": "error",
         "no-param-reassign": "error",
         "no-redeclare": "error",
+        "new-cap": "error",
         "no-throw-literal": "error",
-        "no-trailing-spaces": [2, {"skipBlankLines": true}],
+        "no-negated-condition": "error",
+        "no-trailing-spaces": ["error", {"skipBlankLines": true}],
         "no-unmodified-loop-condition": "error",
         "vars-on-top": "warn",
-        "spaced-comment": [2, "always"],
-        "space-infix-ops": [2, {"int32Hint": false}],
-        "sort-imports": [2, {
+        "spaced-comment": ["error", "always"],
+        "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
+        "space-infix-ops": ["error", {"int32Hint": false}],
+        "keyword-spacing": ["error", {"before": true, "after": true, "overrides": {}}],
+        "sort-imports": ["error", {
             "ignoreCase": false,
             "ignoreMemberSort": false,
             "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
         }],
-        "comma-spacing": [2, {"before": false, "after": true}]
+        "comma-spacing": ["error", {"before": false, "after": true}],
+        "constructor-super": "error",
+        "arrow-parens": ["error", "always"],
+        "arrow-spacing": "warn",
+        "no-class-assign": "error",
+        "no-this-before-super": "error",
+        "no-dupe-class-members": "error",
+        "no-dupe-imports": "error",
+        "no-const-assign": "error"
+
     }
 
 
