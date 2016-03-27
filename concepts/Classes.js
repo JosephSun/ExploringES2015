@@ -51,3 +51,27 @@ class EmployeeES2015 extends PersonES2015 {
     return `${super.describe()} (${this.title})`;
   }
 }
+
+// ES5 Export
+let sqrt = Math.sqrt;
+function square(x) {
+    return x * x;
+}
+function diag(x, y) {
+    return sqrt(square(x) + square(y));
+}
+module.exports = {sqrt, square, diag};
+// The line above would acutually have {sqrt: sqrt, square: square, diag: diag} but my linter already has es2015 rules so..
+
+
+// ES2015 Export
+export sqrt;
+export square;
+export diag;
+
+
+// ES5 Import, we are assuming lib.js is where the export is.
+square = require('lib').square;
+diag = require('lib').diag
+
+// ES2015 Import
