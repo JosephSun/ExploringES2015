@@ -9,7 +9,7 @@ Person.prototype.describe = function () {
 }
 
 
-// ES2015
+// ES2015, Class declarations are not hoisted
 class PersonES2015 {
   constructor(name) {
     this.name = name;
