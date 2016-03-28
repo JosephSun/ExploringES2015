@@ -41,7 +41,7 @@ Employee.prototype.describe = function (){
   return `${Person.prototype.describe.call(this)} (${this.title})`;
 }
 
-// ES2015
+// ES2015 extends makes EmployeeES2015 a child class of PersonES2015
 class EmployeeES2015 extends PersonES2015 {
   constructor(name, title) {
     super(name);
